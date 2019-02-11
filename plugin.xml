@@ -28,7 +28,7 @@
         <source-file src="src/vuforia/Vuforia.jar" target-dir="libs" />
 
         <!-- Add our permissions to the Android Manifest -->
-        <config-file target="AndroidManifest.xml" parent="/*">
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <uses-feature android:glEsVersion="0x00020000" />
             <uses-feature android:name="android.hardware.camera" />
 
