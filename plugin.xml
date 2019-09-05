@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-vuforia-sdk"
-        version="6.0.117">
+        version="8.3.8">
     <name>Vuforia SDK</name>
     <description>Cordova Vuforia SDK Plugin</description>
     <license>MIT</license>
@@ -14,7 +14,7 @@
     <author>Matthew Rayner</author>
 
     <info>
-        Cordova Vuforia SDK Plugin version 6.0.117, Copyright (C) 2016 Matthew Rayner
+        Cordova Vuforia SDK Plugin version 8.3.8, Copyright (C) 2016 Matthew Rayner
         Cordova Vuforia SDK Plugin comes with ABSOLUTELY NO WARRANTY; see the
         LICENSE file for more information.
         This is free software, and you are welcome to redistribute it
@@ -24,7 +24,8 @@
     <!-- android -->
     <platform name="android">
         <!-- Libraries -->
-        <source-file src="src/vuforia/jniLibs/armeabi/libVuforia.so" target-dir="libs/armeabi-v7a" />
+        <source-file src="src/vuforia/jniLibs/armeabi-v7a/libVuforia.so" target-dir="libs/armeabi-v7a" />
+        <source-file src="src/vuforia/jniLibs/arm64-v8a/libVuforia.so" target-dir="libs/arm64-v8a" />
         <source-file src="src/vuforia/Vuforia.jar" target-dir="libs" />
 
         <!-- Add our permissions to the Android Manifest -->
